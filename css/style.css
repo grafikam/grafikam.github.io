@@ -210,10 +210,10 @@ html{
     border-bottom-right-radius:50px;
 }
 .block:hover~#calculate{
-    filter: blur(5px);
+    filter: blur(2px);
 }
 .block:hover~.grno{
-    filter: blur(5px);
+    filter: blur(2px);
 }
 .grno{
     transition: .6s;
