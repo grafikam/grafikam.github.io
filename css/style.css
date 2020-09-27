@@ -133,7 +133,7 @@ html{
 
 .a1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #313842;
+    color: orange;
     text-decoration: none;
     margin-right: 30px;
     margin-top: 15px;
@@ -146,14 +146,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .footer{
-    color: #313842;
+    color: orange;
    /* background-color:#313842;*/
     padding: 50px;
     min-width: 900px;
     
 }
 .social{
-    color: #313842;
+    color: orange;
     margin-left: 90.7%;
     font-size: x-large;
     
@@ -164,21 +164,21 @@ body {
 
    padding: 5px;
   font-size: x-large;
-  color: #313842;
+  color: orange;
 }
 #inst1{
 
    padding: 8px;
   font-size: x-large;
   text-decoration: none;
-  color: #313842;
+  color: orange;
 }
 #fb1{
 
    padding: 8px;
   font-size: x-large;
   text-decoration: none;
-  color: #313842;
+  color: orange;
 }
 .border{
     border-top:2px solid black ;
