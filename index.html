@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grafik</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- <script src="scripts/script.js"></script> -->
+        <link rel="stylesheet" href="css/style.css">
+        <script src="scripts/script.js"></script>
+        <script src="scripts/script2.js"></script>
+        <!--<script src="scripts/graph.js"></script> -->
+        
+        
+    </head>
+
+    <body>
+        <header class="grafik">
+            <h1><b><em><a href="#" class="a2" onClick="window.location.reload();return false;">GRAFIK.AM</a></em></b></h1>
+            <div class="b1"></div>
+          </header>
+          <div class="block">
+            <div class="menu" >
+               <strong> How to use logarithm.</strong>
+                Press “log(“ (or L on keyboard) button. In the first bracket write base of the log ,then close the bracket and press “_” button (shift + “-“  on keyboard).In the opened bracket write down logarithm argument and close the bracket.
+
+            </div>
+            <div class="menu1" >
+              <strong>  Some not obvious shortcuts.</strong> <br>
+                R – square root <br>
+                S – sinus<br>
+                C – cosinus<br>
+                Enter -  run function
+
+
+            </div>
+            <div class="menu2" >
+                1) If -X is not working try 0-X.<br>
+                2) You can generally skip “ * ” in obvious cases (e.g. 5x) but if it does not work try to put it.<br>
+                3) Avoid using meaningless  brackets.
+
+
+            </div>
+          </div>
+    
+        <div id="calculate">
+            <div id="header">
+                <input type="text" id="funcarea"  placeholder="f(x)="  disabled> <br>
+                <input type="button" value="Delete" id="delete" onclick="cleanFnc();">
+                <input type="submit" value="=" id="isequal" onclick="showResult();">
+                <input type="submit" value="Run function" id="runfx" onclick="runFx();">
+                <input type="button" value="x" id="varuable"  onclick="fx();">
+             </div>  
+            
+                <div id="numberarea">
+                    <input type="button" value="0" class="numbers" onclick="numb0();">
+                    <input type="button" value="1" class="numbers" onclick="numb1();">
+                    <input type="button" value="2" class="numbers" onclick="numb2();">
+                    <input type="button" value="3" class="numbers" onclick="numb3();">
+                    <input type="button" value="4" class="numbers" onclick="numb4();">
+                    <input type="button" value="5" class="numbers" onclick="numb5();">
+                    <input type="button" value="6" class="numbers" onclick="numb6();">
+                    <input type="button" value="7" class="numbers" onclick="numb7();">
+                    <input type="button" value="8" class="numbers" onclick="numb8();">
+                    <input type="button" value="9" class="numbers" onclick="numb9();">
+                    <input type="button" value="e" id="euler" class="numbers" onclick="euler();">
+                    <input type="button" value="π" id="pi" class="numbers" onclick="pi();">
+                    <input type="button" value="." id="point" class="numbers" onclick="point();">
+                </div>
+                <div id="workarea">    
+                    <input type="button" value="+" id="plus" class="workbuttons" onclick="plus();">
+                    <input type="button" value="-" id="minus" class="workbuttons" onclick="minus();">
+                    <input type="button" value="/" id="devide" class="workbuttons" onclick="devide();">
+                    <input type="button" value="*" id="multiply" class="workbuttons" onclick="multiply();">
+                    <input type="button" value="^" id="deg" class="workbuttons" onclick="deg();">
+                    <input type="button" value="(" id="leftbracket" class="workbuttons" onclick="leftbracket();">
+                    <input type="button" value=")" id="rightbracket" class="workbuttons" onclick="rightbracket();">
+                    <input type="button" value="|" id="mod" class="workbuttons" onclick="mod();">
+                    <input type="button" value="√(" id = "squareRoot" class = " workbuttons" onclick="squareRoot();">
+                    <input type="button" value="sin(" id="sin" class="workbuttons" onclick="sin();">
+                    <input type="button" value="cos(" id="cos" class="workbuttons" onclick="cos();">  
+                    <input type="button" value="log(" id="log" class="workbuttons" onclick="log();">
+                    <input type="button" value="_" id="takiGic" class = "workbuttons" onclick="takiGic();">
+                   
+                     
+            </div>   
+        </div> 
+        
+        
+        <div class="grno">
+            <canvas id="c1" width="900px" height="900px" ></canvas>
+            <button id="top">top</button>
+        </div>
+
+
+        <figure>
+            <button class="fas fa-arrow-circle-up" id="buttonUp"></button>
+        </figure>
+
+        <script src="scripts/graph.js"></script>
+        <footer class="footer">
+            <div class="border">
+
+
+            <span class="jrashen">© 2020 Jrashen Productions by Robo,Niko,Hayko.</span>
+            <span class="a1"> In case of errors </span>
+        </div>
+        <div class="social">
+            <a href="https://vk.com/im?sel=391342828"><i class="fab fa-vk" id="vk1"></i></a>
+             <div class="inst">
+                 <a href="https://www.instagram.com/direct/t/340282366841710300949128116153620631138?hl=ru"><i class="fab fa-instagram" id="inst1"></i></a>
+             </div>
+             <div class="facebook">
+                 <a href="https://www.facebook.com/messages/t/rpapyan"><i class="fab fa-facebook" id="fb1"></i></a>
+             </div>
+         </div>
+        </footer>
+
+ 
+    </body>
+
+
+</html>
