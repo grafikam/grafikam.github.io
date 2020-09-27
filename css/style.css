@@ -133,10 +133,13 @@ html{
 
 .a1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red;
+    color: white;
     text-decoration: none;
     margin-right: 30px;
     margin-top: 15px;
+}
+body {
+    background-image: url(../xarabax_drosh.jpg);
 }
 .jrashen{
     margin-top: 15px;
@@ -144,7 +147,7 @@ html{
 }
 .footer{
     color:white;
-    background-color:#313842;
+   /* background-color:#313842;*/
     padding: 50px;
     min-width: 900px;
     
